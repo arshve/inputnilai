@@ -1,0 +1,48 @@
+body {
+	 background-image: url(../assets/img/backgrounds/1.jpg);
+}
+#qr-canvas {
+		
+	display:none;
+}
+
+	
+#outdiv{
+		width:400px;
+		height:270px;
+	}
+
+	#v{
+		width:400px;
+		height:270px;
+	}
+
+	@media screen and (max-width: 480px){
+		
+		#outdiv{
+			width:190px;
+			height:190px;
+		}
+		
+	    #v{
+			width:190px;
+			height:190px;
+		}
+		
+		@media screen and (max-device-width: 480px) 
+	              and (orientation:portrait){
+	  
+			#outdiv{
+				width:270px;
+				height:270px;
+
+			}
+			
+		    #v{
+				width:270px;
+				height:270px;
+			}
+		
+		}
+
+	}
